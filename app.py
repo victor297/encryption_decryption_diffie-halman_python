@@ -21,6 +21,8 @@ with open("backend_public_key.pem", "rb") as f:
 
 # Streamlit interface
 st.title("File Encryption and Decryption")
+st.write("BY ABDULRAHMON ALUBARIKA DAUDA")
+st.write("19/67EC/00877")
 
 # Upload file
 uploaded_file = st.file_uploader("Choose a file")
